@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Embark</title>
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+
+	<h1>Operar</h1>
+	<p>
+		Cantidad: 
+		<select id='cantidad'>
+			<option>10</option>
+			<option>20</option>
+			<option>30</option>
+			<option>40</option>
+		</select>
+	</p>
+	<p>
+		<button onclick='javascript: ingresar()'>Ingresar dinero</button>
+		<button onclick='javascript: retirar()'>Retirar dinero</button>
+	</p>
+
+	<h1>Consultar saldo</h1>
+	<p>
+		Saldo: <span id='saldo'>-</span>&euro;
+	</p>
+	<p>
+		<button onclick='javascript: consultar();'>Consultar saldo</button>
+	</p>
+
+  </body>
+</html>

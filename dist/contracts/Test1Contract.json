@@ -1,0 +1,96 @@
+{
+  "contract_name": "Test1Contract",
+  "address": "0x8ac898a9e85d2a6249a07b350774641b3635f892",
+  "code": "6060604052341561000f57600080fd5b604051602080610138833981016040528080516000555050610102806100366000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416636539574f81146059578063a41de86514606e578063e2eec9a7146090578063e8b1298f1460a057600080fd5b3415606357600080fd5b606c60043560b3565b005b3415607857600080fd5b607e60be565b60405190815260200160405180910390f35b3415609a57600080fd5b607e60c4565b341560aa57600080fd5b606c60043560ca565b600080549091019055565b60005481565b60005490565b600080549190910390555600a165627a7a72305820314b5cdb988b65e6cb373e3b19d93dfa60dae72cb816968464f5222eb1afe9140029",
+  "runtime_bytecode": "606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416636539574f81146059578063a41de86514606e578063e2eec9a7146090578063e8b1298f1460a057600080fd5b3415606357600080fd5b606c60043560b3565b005b3415607857600080fd5b607e60be565b60405190815260200160405180910390f35b3415609a57600080fd5b607e60c4565b341560aa57600080fd5b606c60043560ca565b600080549091019055565b60005481565b60005490565b600080549190910390555600a165627a7a72305820314b5cdb988b65e6cb373e3b19d93dfa60dae72cb816968464f5222eb1afe9140029",
+  "real_runtime_bytecode": "606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416636539574f81146059578063a41de86514606e578063e2eec9a7146090578063e8b1298f1460a057600080fd5b3415606357600080fd5b606c60043560b3565b005b3415607857600080fd5b607e60be565b60405190815260200160405180910390f35b3415609a57600080fd5b607e60c4565b341560aa57600080fd5b606c60043560ca565b600080549091019055565b60005481565b60005490565b600080549190910390555600a165627a7a72305820314b5cdb988b65e6cb373e3b19d93dfa60dae72cb816968464f5222eb1afe9140029",
+  "swarm_hash": "314b5cdb988b65e6cb373e3b19d93dfa60dae72cb816968464f5222eb1afe914",
+  "gas_estimates": {
+    "creation": [
+      20152,
+      51600
+    ],
+    "external": {
+      "getSaldo()": 396,
+      "ingresar(uint256)": 20328,
+      "retirar(uint256)": 20397,
+      "saldo()": 374
+    },
+    "internal": {}
+  },
+  "function_hashes": {
+    "getSaldo()": "e2eec9a7",
+    "ingresar(uint256)": "6539574f",
+    "retirar(uint256)": "e8b1298f",
+    "saldo()": "a41de865"
+  },
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "name": "ingresar",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "saldo",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getSaldo",
+      "outputs": [
+        {
+          "name": "retVal",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "name": "retirar",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "saldoInicial",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ]
+}
